@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA5F5F"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="512dp"
+        android:layout_height="589dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uifinalone" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="434dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="-600dp"
+        android:layout_marginEnd="186dp"
+        android:fontFamily="@font/bungee"
+        android:text="WELCOME TO LUNA TAMAGOTCHI APP"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="38.5sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="158dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="-96dp"
+        android:backgroundTint="#FF3D00"
+        android:text="Get Started"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
